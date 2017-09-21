@@ -9,8 +9,7 @@ services:
     ports:
       - "5432:5432"
     volumes:
-      - /www/docker/yidu/db/data:/var/lib/postgresql/data
-      - /www/test:/www
+      - ./db/data:/var/lib/postgresql/data
   yidu:
     build:
       context: ./yidu
