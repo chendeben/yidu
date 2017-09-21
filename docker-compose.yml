@@ -17,6 +17,7 @@ services:
       - 80:8080
     volumes:
         - ./yidu/ROOT:/usr/local/tomcat/webapps/ROOT
+        - ./yidu/yispider:/usr/local/spider
 
 
     
