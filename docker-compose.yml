@@ -6,10 +6,11 @@ services:
       context: ./db
     environment:
       - POSTGRES_PASSWORD=postgres
+      - PGDATA=/postgresql/data
     ports:
       - "5432:5432"
     volumes:
-      - ./db/data:/var/lib/postgresql/data
+      - ./db/data:/postgresql/data
   yidu:
     build:
       context: ./yidu
