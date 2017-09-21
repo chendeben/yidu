@@ -58,7 +58,7 @@
     </logger>
 
     <root level="INFO">
-        <appender-ref ref="stdout" />
+        <!--<appender-ref ref="stdout" />-->
         <appender-ref ref="file-info" />
         <appender-ref ref="file-error" />
     </root>
