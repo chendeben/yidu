@@ -1,11 +1,11 @@
 version: '2'
 
 services:
-  db:
+  yidu_postgres:
     build:
       context: ./db
     environment:
-      - POSTGRES_PASSWORD=6485882
+      - POSTGRES_PASSWORD=postgres
     ports:
       - "5432:5432"
     volumes:
