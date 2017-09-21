@@ -4,12 +4,10 @@ services:
   yidu_postgres:
     build:
       context: ./db
-    environment:
-      - PGDATA=/postgresql/data
     ports:
       - "5432:5432"
     volumes:
-      - ./db/data:/postgresql/data
+      - ./db/data:/var/lib/postgresql/data
   yidu:
     build:
       context: ./yidu
