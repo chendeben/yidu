@@ -1,0 +1,23 @@
+version: '2'
+
+services:
+  db:
+    build:
+      context: ./db
+    environment:
+      - POSTGRES_PASSWORD=6485882
+    ports:
+      - "5432:5432"
+    volumes:
+      - /www/docker/yidu/db/data:/var/lib/postgresql/data
+      - /www/test:/www
+  yidu:
+    build:
+      context: ./yidu
+    ports:
+      - 80:8080
+    volumes:
+        - ./yidu/ROOT:/usr/local/tomcat/webapps/ROOT
+
+
+    
