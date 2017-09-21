@@ -5,7 +5,6 @@ services:
     build:
       context: ./db
     environment:
-      - POSTGRES_PASSWORD=postgres
       - PGDATA=/postgresql/data
     ports:
       - "5432:5432"
