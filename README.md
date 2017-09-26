@@ -33,3 +33,5 @@ cd /usr/local/spider
 sh start.sh
 ```
 采集规则以及采集设置，可参考官网：[http://www.51yd.org](http://www.51yd.org)
+### 迁移说明
+迁移只需将整个项目全部拷贝走，复制到新的服务器下，重新安装好docker和docker-compose环境，然后重新build一次即可
