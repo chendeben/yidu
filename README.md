@@ -14,6 +14,8 @@ mongodb在 ./db/data
 
 小说存储于./txt
 
+这些目录可以自行在docker-compose.yml文件里进行修改映射
+
 ### 采集说明
 
 ①、执行```docker ps```查看当前yidu的容器ID，如：fee788162643；
