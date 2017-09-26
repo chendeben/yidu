@@ -27,4 +27,4 @@ cd /usr/local/spider
 
 sh start.sh
 ```
-采集规则以及采集设置，可参考官网：[http://www.51yidu.org](http://www.51yidu.org)
+采集规则以及采集设置，可参考官网：[http://www.51yd.org](http://www.51yd.org)
