@@ -9,6 +9,9 @@ git clone https://github.com/chendeben/yidu.git
 cd yidu
 docker-compose up --build
 ```
+
+镜像部署完毕后，可以control+c退出，然后执行```docker-compose up -d```放在后台执行即可
+
 ### 数据库说明
 mongodb在 ./db/data
 
