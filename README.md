@@ -10,7 +10,7 @@ cd yidu
 docker-compose up --build
 ```
 
-镜像部署完毕后，可以control+c退出，然后执行```docker-compose up -d```放在后台执行即可
+镜像部署完毕后，打开浏览器，访问http://domain.com/install/index 设置下管理员账号及密码后保存，然后就可以control+c退出，然后执行```docker-compose up -d```放在后台执行即可
 
 ### 数据库说明
 mongodb在 ./db/data
